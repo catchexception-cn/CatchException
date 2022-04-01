@@ -1,0 +1,6 @@
+[submodule "modules/CatchException.QuestionAnswer"]
+	path = modules/CatchException.QuestionAnswer
+	url = https://github.com/catchexception-cn/CatchException.QuestionAnswer.git
+[submodule "modules/CatchException.Tagging"]
+	path = modules/CatchException.Tagging
+	url = https://github.com/catchexception-cn/CatchException.Tagging.git
