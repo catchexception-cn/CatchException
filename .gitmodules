@@ -4,3 +4,6 @@
 [submodule "modules/CatchException.Tagging"]
 	path = modules/CatchException.Tagging
 	url = https://github.com/catchexception-cn/CatchException.Tagging.git
+[submodule "framework/CatchException.BlobStoring.Aliyun"]
+	path = framework/CatchException.BlobStoring.Aliyun
+	url = https://github.com/catchexception-cn/CatchException.BlobStoring.Aliyun.git
