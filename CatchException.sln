@@ -71,6 +71,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatchException.Tagging.Http
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatchException.Tagging.HttpApi.Client", "modules\CatchException.Tagging\src\CatchException.Tagging.HttpApi.Client\CatchException.Tagging.HttpApi.Client.csproj", "{D9F18165-6C82-44FB-B31F-9174D0E127D6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "framework", "framework", "{631379EE-BF4C-4536-8114-8C9D67C46BC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatchException.BlobStoring.Aliyun", "framework\CatchException.BlobStoring.Aliyun\src\CatchException.BlobStoring.Aliyun.csproj", "{1DB0D97E-8108-42EA-9B32-8FC289EA6E8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -193,6 +197,10 @@ Global
 		{D9F18165-6C82-44FB-B31F-9174D0E127D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9F18165-6C82-44FB-B31F-9174D0E127D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9F18165-6C82-44FB-B31F-9174D0E127D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB0D97E-8108-42EA-9B32-8FC289EA6E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB0D97E-8108-42EA-9B32-8FC289EA6E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB0D97E-8108-42EA-9B32-8FC289EA6E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB0D97E-8108-42EA-9B32-8FC289EA6E8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -229,6 +237,7 @@ Global
 		{1DE8F999-63B2-42B1-BB7E-144EF10B2903} = {12846177-8B23-46FE-9086-4489048379A8}
 		{018F8DE2-67EF-4AC6-B9CA-E3F3C95343C4} = {12846177-8B23-46FE-9086-4489048379A8}
 		{D9F18165-6C82-44FB-B31F-9174D0E127D6} = {12846177-8B23-46FE-9086-4489048379A8}
+		{1DB0D97E-8108-42EA-9B32-8FC289EA6E8B} = {631379EE-BF4C-4536-8114-8C9D67C46BC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28315BFD-90E7-4E14-A2EA-F3D23AF4126F}
