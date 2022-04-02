@@ -15,8 +15,10 @@ public class CatchExceptionDbContextFactory : IDesignTimeDbContextFactory<CatchE
 
         var configuration = BuildConfiguration();
 
+        //var builder = new DbContextOptionsBuilder<CatchExceptionDbContext>()
+        //    .UseMySql(configuration.GetConnectionString("Default"), MySqlServerVersion.LatestSupportedServerVersion);
         var builder = new DbContextOptionsBuilder<CatchExceptionDbContext>()
-            .UseMySql(configuration.GetConnectionString("Default"), MySqlServerVersion.LatestSupportedServerVersion);
+            .UseSqlServer(configuration.GetConnectionString("Default"));
 
         return new CatchExceptionDbContext(builder.Options);
     }
